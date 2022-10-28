@@ -1,9 +1,8 @@
-/*1#include <stdint.h> */
-/*#include <TM4C123.h> */
-#include "BIT_MATH.h"
-#include "RCC_InerFace.h"
-#include "sysTick_InterFac.h"
-#include "GPIO_InterFace.h"
+
+#include "../LIB/BIT_MATH.h"
+#include "../Interface/RCC_InerFace.h"
+#include "../Interface/sysTick_InterFac.h"
+#include "../Interface/GPIO_InterFace.h"
 int main(void){
 /*MAP 0x40000000, 0x400FFFFF read write*/
 
